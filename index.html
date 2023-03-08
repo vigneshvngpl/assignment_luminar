@@ -1,48 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary p-2">
-        <div class="container-fluid">
-            <div class="w-50 container">
-          <a class="navbar-brand ps-5 ms-5 " href="#"><img src="./images/Luminarlogo.png" alt=""></a>
+
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary p-2 fixed-top">
+    <div class="container-fluid">
+      <div class="w-50 container">
+        <a class="navbar-brand ps-5 ms-5 " href="#"><img src="./images/Luminarlogo.png" alt=""></a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 container">
+          <li class="nav-item ms-3">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+
+          <li class="nav-item ms-2">
+            <a class="nav-link ">COURSES</a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link ">OUR PLACEMENT</a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link ">GALLERY</a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link ">CONTACT</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide" >
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/slide 1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-start " style="margin-bottom: 100px;">
+          <h1>Keralas No.1 IT finishing school</h1>
+          <h1>100% placement assistant</h1>
+          <p class="mt-4" style="width: 40%;">We at Luminar technolab offers best software training and placement in
+            emerging technologies like BIG DATA,Data science,Machine Learning,PYTHON,Software Testing</p>
+          <button type="button" class="btn rounded-pill text-white "
+            style="background-color: rgb(124, 35, 208); margin-top: 100px; width: 15%; height: 60px ">VIEW
+            COURSES</button>
         </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 container">
-              <li class="nav-item ms-3">
-                <a class="nav-link active" aria-current="page" href="#">HOME</a>
-              </li>
-              <li class="nav-item ms-2">
-                <a class="nav-link" href="#">ABOUT</a>
-              </li>
-             
-              <li class="nav-item ms-2">
-                <a class="nav-link ">COURSES</a>
-              </li>
-              <li class="nav-item ms-2">
-                <a class="nav-link ">OUR PLACEMENT</a>
-              </li>
-              <li class="nav-item ms-2">
-                <a class="nav-link ">GALLERY</a>
-              </li>
-              <li class="nav-item ms-2">
-                <a class="nav-link ">CONTACT</a>
-              </li>
-            </ul>
-            
-          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/slide 2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-start " style="margin-bottom: 100px;">
+          <h1>Data Science, ML &amp; AI</h1>
+          <h1> Big Data - Hadoop &amp; Spark </h1>
+          <h1> Python Data Science</h1>
+          <p class="mt-4" style="width: 40%;">We at Luminar technolab offers best software training and placement in
+            emerging technologies like Bigdata,Hadoop,spark,Data Science,Machine Learning,Deep Learning and AI </p>
+          <button type="button" class="btn rounded-pill text-white "
+            style="background-color: rgb(124, 35, 208); margin-top: 100px;width: 15%; height: 60px;">VIEW
+            COURSES</button>
         </div>
-      </nav>
-    
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- Button trigger modal -->
+<button type="button" class="btn text-white rounded-pill mt-5 ms-5 mb-5 " data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color:rgb(124, 35, 208); width: 10%; height: 60px " >
+  For enquiry
+</button>
+
+<!-- Modal -->
+<div class="modal fade  " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" container >
+  <div class="modal-dialog w-50 ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5  ps-5 ms-5" id="exampleModalLabel">Get Training Quote for free</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body w-90 ">
+        <form action="">
+          <input type="text" placeholder="Name" style="margin-top: 10px;" class="border-0" ><br><hr>
+          <input type="text" placeholder="Email" style="margin-top: 10px;"class="border-0"><br><hr>
+          <input type="text" placeholder="Phone number" style="margin-top: 10px;"class="border-0" ><br><hr>
+          <select name="" id="" style="margin-top: 10px;" class="border-0 bg-white">
+            <option value="0" >Select Course Interested in</option><hr>
+            <option>Data Science - ML - AI - Big Data with Cloud &amp; Tableau</option>
+            <option>Python Django - Angular- Full Stack Web Development Expert</option>
+            <option>Software Testing Specialist</option> 
+            <option>MEARN Stack Web Development Expert - Angular &amp; React</option>
+            <option>Business Analytics - Power BI &amp; Tableau</option>
+            <option>Android Developer Expert Training In Kochi- Flutter</option>
+            <option>PYTHON -DATA SCIENCE with ML - AI - &amp; TABLEAU</option>
+          </select><hr>
+          <input type="text" placeholder="City" style="margin-top: 10px;" class="border-0"><hr>
+          <textarea name="" class="w-90 border-0" id="" cols="50" rows="5" placeholder="Comments" style="margin-top: 10px;" ></textarea><hr>
+        </form>
+        <button type="button" class="btn  pe-1 ps-1 text-white " style="background-color:rgb(124, 35, 208)">submit</button>
+      </div>
+     
+        
+        
+      
+    </div>
+  </div>
+</div>
+
+
+
+
 </body>
+
 </html>
