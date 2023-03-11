@@ -1,54 +1,121 @@
-
-.b3{
-    width: 90%;
-    display: flex;
-    justify-content: space-evenly;
-    transition: .05s ease-in;
-    
-}
-
-.ourcourse span{ color: rgb(168, 53, 181);
-
-}
-
-.ourcourse h1{
-    color: rgb(88, 33, 140);
-}
-
-.b3:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transform: scale(1.01);
-}
-.co1{
+.b3 {
     width: 90%;
     display: flex;
     justify-content: space-evenly;
     transition: .05s ease-in;
 
-    
 }
 
+.ourcourse span {
+    color: rgb(168, 53, 181);
 
+}
 
+.ourcourse h1 {
+    color: rgb(88, 33, 140);
+}
 
-.c1:hover{
+.b3:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transform: scale(1.01);
 }
 
-.c1 a:link{
-    text-decoration: none;
-    color: rgb(88, 33, 140);
+.co1 {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    transition: .05s ease-in;
+    margin-left: 4%;
+
+
 }
-.c1 a:visited{
-    text-decoration: none;
-    color: rgb(88, 33, 140);
-}
-.c1 a:hover{
+
+.c2 a:link {
     text-decoration: none;
     color: rgb(88, 33, 140);
 }
 
-.c1 a:active{
+.c2 a:visited {
+    text-decoration: none;
+    color: rgb(88, 33, 140);
+}
+
+.c2 a:hover {
+    text-decoration: none;
+    color: rgb(88, 33, 140);
+}
+
+.c2 a:active {
     text-decoration: none;
 }
+
+
+
+
+
+.c1:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.01);
+}
+
+.c1 a:link {
+    text-decoration: none;
+    color: rgb(88, 33, 140);
+}
+
+.c1 a:visited {
+    text-decoration: none;
+    color: rgb(88, 33, 140);
+}
+
+.c1 a:hover {
+    text-decoration: none;
+    color: rgb(88, 33, 140);
+}
+
+.c1 a:active {
+    text-decoration: none;
+}
+
+.head1 a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.head1 a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.head1 a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.head1 a:active {
+    text-decoration: none;
+}
+
+@media(max-width:600px) {
+
+    .ca1 h1 {
+        font-size: medium;
+    }
+
+    .ca1 p {
+        font-size: small;
+    }
+}
+
+.whatsapp:hover{
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+transform: scale(1.1);
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 50px;
+    left: 20px;
+    color: rgb(27, 166, 27);
+}
+
