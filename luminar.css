@@ -114,8 +114,25 @@ transform: scale(1.1);
 
 .whatsapp{
     position: fixed;
+    
     bottom: 50px;
     left: 20px;
     color: rgb(27, 166, 27);
+}
+
+.learnbtn{
+    background-color:rgb(124, 35, 208) ;
+    margin-top: 100px;
+    width: 150px;
+    height: 60px;
+    font-size: large;
+    color: white;
+}
+ .learnbtn:hover{
+
+    background-color: white;
+    border-color:  rgb(124, 35, 208);
+    color: rgb(124, 35, 208)
+
 }
 
