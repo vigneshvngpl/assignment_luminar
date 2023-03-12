@@ -105,6 +105,11 @@
     .ca1 p {
         font-size: small;
     }
+
+    .head1 a{
+
+        font-size: x-small;
+    }
 }
 
 .whatsapp:hover{
